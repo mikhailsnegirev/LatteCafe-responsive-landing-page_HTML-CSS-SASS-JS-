@@ -1,0 +1,58 @@
+.winning {
+  padding: 120px 0 120px 0;
+  background-color: #4A2B33;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 267px;
+  }
+  &__title {
+    width: 413px;
+    font-weight: 400;
+    font-size: 47px;
+    color: #D27487;
+  }
+  &__descr {
+    width: 595px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #D27487;
+  }
+}
+
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+  .winning {
+    &__wrapper {
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .winning {
+    &__descr {
+      width: 510px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .winning {
+    padding: 60px 0 60px 0;
+    &__title {
+      width: 310px;
+      font-size: 35px;
+    }
+    &__descr {
+      width: 310px;
+    }
+  }
+}
